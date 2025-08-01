@@ -28,7 +28,7 @@ rmdir /S /Q %appdata%\.minecraft\resourcepacks
 6. Create a symbolic link to cloned mods and resourcepacks directories:
 ```bash
 mklink /D %appdata%\.minecraft\mods %userprofile%\documents\code\mc-srv1\mods\client
-mklink /D %appdata%\.minecraft\resourcepacks %userprofile%\documents\code\mc-srv1\mods\resourcepacks
+mklink /D %appdata%\.minecraft\resourcepacks %userprofile%\documents\code\mc-srv1\resourcepacks
 ```
 
 ### Updating
